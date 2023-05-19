@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galactic Grand Prix</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Box icons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Remixicons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Google Fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"></a>
+        <ul class="navlist"> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="mailto:team.bixel@gmail.com">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="game">
+        <div class="background-video">
+            <video autoplay muted loop>
+              <source src="videos/background_video.mp4" type="video/mp4">
+            </video>
+          </div>
+        <div class="game-text">
+            <h5>Welcome to Galactic Grand Prix!</h5>
+            <h4>Lead Your Racers to Glory!!!</h4>
+            <h1>Galactic Grand Prix</h1>
+            <p>Train your racers, give them commands and win the Galactic Grand Prix</p>
+            <a href="#" id="connect-btn"><i class="ri-wallet-fill"></i><span 
+                id="address">Connect</span></a>
+            <script src="keplr.js"></script>
+            <a href="#" class="ctaa"><i class="ri-play-fill"></i>Watch GamePlay</a>
+            <div class="player-container">
+                <div id="player"></div>
+        </div>
+        </div>
+
+        <div class="game-img">
+            <img src="img/Galactic-Grand-Prix2.png" width="480">
+        </div>
+
+        <div class="icons">
+            <a href="https://www.instagram.com/team.bixel/"><i class="ri-instagram-line"></i></a>
+            <a href="https://twitter.com/TeamBixel"><i class="ri-twitter-line"></i></a>
+            <a href="https://www.youtube.com/@team_bixel"><i class="ri-youtube-line"></i></a>
+            <a href="https://www.linkedin.com/company/teambixel/?viewAsMember=true"><i class="ri-linkedin-line"></i></a>
+        </div>
+
+        <div class="scroll-down">
+            <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+        </div>
+
+        <div class="team-img" style="display: inline-block; width: 100px; margin-top: 10px;">
+            <img src="img/logo.png" width="100">
+        </div>
+    </section>
+
+    <!-- Scroll reveal effect -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Custom JS link -->
+    <script src="script.js"></script>
+
+    <!-- YouTube API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
